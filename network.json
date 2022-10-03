@@ -1,0 +1,1976 @@
+[
+  {
+    "index": 0,
+    "url": "https://perfsee.com/",
+    "startTime": 0,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "VeryHigh",
+    "type": "Document",
+    "size": 2182,
+    "transferSize": 1410,
+    "timing": 183.6629994213581,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.926
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 154.548
+      },
+      {
+        "name": "SSL",
+        "value": 130.934
+      },
+      {
+        "name": "Send",
+        "value": 0.23400000000000887
+      },
+      {
+        "name": "Wait",
+        "value": 24.78300096583365
+      },
+      {
+        "name": "Receive",
+        "value": 1.9069984555244446
+      }
+    ],
+    "requestHeader": {
+      "Upgrade-Insecure-Requests": "1",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      ":authority": "perfsee.com",
+      ":method": "GET",
+      ":path": "/",
+      ":scheme": "https",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "cache-control": "max-age=0, no-cache, no-store",
+      "content-encoding": "gzip",
+      "content-length": "812",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "etag": "W/\"886-1837e56acd7\"",
+      "expires": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "last-modified": "Tue, 27 Sep 2022 09:45:53 GMT",
+      "pragma": "no-cache",
+      "server": "nginx",
+      "server-timing": "cdn-cache; desc=MISS, edge; dur=0, origin; dur=10",
+      "vary": "Accept-Encoding",
+      "x-akamai-request-id": "1aaedd8e",
+      "x-cache": "TCP_MISS from a184-51-149-68.deploy.akamaitechnologies.com (AkamaiGHost/10.9.4-44125806) (-)",
+      "x-origin-response-time": "10,184.51.149.68",
+      "x-powered-by": "Express",
+      "x-tt-trace-host": "01a088e78453b8b63c430e5637fb2121dc2226d500699adf0743b9eeb6485bc0c34843f47c2df8ca4c72a514b5f0b4836d38fc29d226c3eeab2d706f874d05eff0da2bc352975fee26e7c892fe1eacf106",
+      "x-tt-trace-tag": "id=16;cdn-cache=miss;type=dyn"
+    },
+    "statusCode": 200,
+    "mimeType": "text/html",
+    "resourceType": "Document",
+    "endTime": 183.6629994213581,
+    "resourceSize": 2182
+  },
+  {
+    "index": 1,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/runtime.ec1c6b70.js",
+    "startTime": 225.5380004644394,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 4703,
+    "transferSize": 3186,
+    "timing": 79.81199771165848,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 19.475
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 16.143
+      },
+      {
+        "name": "SSL",
+        "value": 14.690000000000001
+      },
+      {
+        "name": "Send",
+        "value": 0.7980000000000018
+      },
+      {
+        "name": "Wait",
+        "value": 40.39400120520592
+      },
+      {
+        "name": "Receive",
+        "value": 2.2319965064525604
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/runtime.ec1c6b70.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d38a0",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "jypA/Sp6b0AQOSeGmkfUEw==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=21, inner; dur=1",
+      "content-length": "2462",
+      "x-tos-request-id": "5e5eff33e38464fa6333e384-ad91560",
+      "x-tos-response-time": "Wed, 28 Sep 2022 06:02:44 GMT",
+      "last-modified": "Tue, 27 Sep 2022 09:50:03 GMT",
+      "server": "nginx",
+      "etag": "\"8f2a40fd2a7a6f40103927869a47d413\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31525296",
+      "x-tt-trace-host": "01368eba47e41a0c7b901f4fc44c476027d24acb73dc1ad5d3e1a2fcd74ca901a5c859b5bc66e2af4a9a42276f1d0142ecad93bd951466bb69322d71a60e9e0681572d64e0498612c2f5f9c2011e6e2f6f5b81e5dbf8c47ba749d9065fd34648805d31f8e24c06e02a5b1bd6e5dd923c69",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 305.34999817609787,
+    "resourceSize": 4703
+  },
+  {
+    "index": 2,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/npm-36cd78e3.ceb7b8dd.js",
+    "startTime": 226.21800005435944,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 548590,
+    "transferSize": 159603,
+    "timing": 213.52699771523476,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 35.837
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.671999999999997
+      },
+      {
+        "name": "Wait",
+        "value": 58.68700123167038
+      },
+      {
+        "name": "Receive",
+        "value": 118.33099648356438
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/npm-36cd78e3.ceb7b8dd.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d3900",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "hmUPAHraIb3G+9O68MqwsQ==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=4, inner; dur=1",
+      "x-tos-request-id": "a67cfe297516edc363297516-abd2f25",
+      "x-tos-response-time": "Tue, 20 Sep 2022 08:08:54 GMT",
+      "last-modified": "Tue, 20 Sep 2022 07:56:51 GMT",
+      "server": "nginx",
+      "etag": "\"86650f007ada21bdc6fbd3baf0cab0b1\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=30841891",
+      "x-tt-trace-host": "01989ff2c51aab4aec2fe4124ccfa4ae73d606ca4290bf68f72899071908fbb04bedacadcdf7fb5822af0f68a0935fe8b06d909fed50d65da5551d572f6efc97bcee9d7ff685d91030cdec57a0a422ad32e3c386837e1d1cd684172c01b2a4f743deabbb5cd82731cd8b3d53abf2362eb8",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 439.7449977695942,
+    "resourceSize": 548590
+  },
+  {
+    "index": 3,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/npm-596046b7.994d3ea7.js",
+    "startTime": 241.883996874094,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 32040,
+    "transferSize": 10872,
+    "timing": 83.79300311207771,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 20.607
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.245000000000001
+      },
+      {
+        "name": "Wait",
+        "value": 51.99399915146827
+      },
+      {
+        "name": "Receive",
+        "value": 10.947003960609436
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/npm-596046b7.994d3ea7.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d395e",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "x8Q+aKBKuYv+Mu2x5LNeIg==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=2, inner; dur=2",
+      "content-length": "10126",
+      "x-tos-request-id": "67cd8830b911d7d16330b911-a791451",
+      "x-tos-response-time": "Sun, 25 Sep 2022 20:24:49 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"c7c43e68a04ab98bfe32edb1e4b35e22\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31317766",
+      "x-tt-trace-host": "01c339d78b64ce6fed239a764c568c838c8a34394cedf0db567a8b29397d98859a319ddaa0137b0b6757f5b2f116706759307c00dfc5820cec48214230b6a4a9a3a02d4e465794bf96555d92d966d46e3dbd63b84ce948c3f42289d3208e679fe95711f8b846d33eb374d186a96fcd5202",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 325.6769999861717,
+    "resourceSize": 32040
+  },
+  {
+    "index": 4,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/npm-88ad8183.04ac7761.js",
+    "startTime": 242.80299991369247,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 42841,
+    "transferSize": 12355,
+    "timing": 86.95999905467033,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 19.591
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.33999999999999986
+      },
+      {
+        "name": "Wait",
+        "value": 52.34599831128121
+      },
+      {
+        "name": "Receive",
+        "value": 14.68300074338913
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/npm-88ad8183.04ac7761.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d3936",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "2S9DS8WsRxZ0n1u2pvbCfQ==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=6, inner; dur=1",
+      "content-length": "11601",
+      "x-tos-request-id": "8799483269dc18c1633269dc-abd4b42",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:24 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"d92f434bc5ac4716749f5bb6a6f6c27d\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428659",
+      "x-tt-trace-host": "01c339d78b64ce6fed239a764c568c838c8a34394cedf0db567a8b29397d98859a5e121cb10e7e172b7c2955984819f70f2409b38e493fc68add2fe4e1d48719a89dc42924d244f1495857cc7887e2fb54fb7639d303489a011f3ec07ddaf5e24049983054de74ef5df3a05c058f805bab",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 329.7629989683628,
+    "resourceSize": 42841
+  },
+  {
+    "index": 5,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/npm-ea8a6886.6eab0e42.js",
+    "startTime": 243.86699870228767,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 26543,
+    "transferSize": 8362,
+    "timing": 81.38599991798401,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 18.393
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.4710000000000001
+      },
+      {
+        "name": "Wait",
+        "value": 51.51099919533729
+      },
+      {
+        "name": "Receive",
+        "value": 11.011000722646713
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/npm-ea8a6886.6eab0e42.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d3925",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "Zt+B/+moOdtitlf80YsFjA==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=7, inner; dur=1",
+      "content-length": "7618",
+      "x-tos-request-id": "b9dd783118ae5404633118ae-abf342c",
+      "x-tos-response-time": "Mon, 26 Sep 2022 03:12:46 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"66df81ffe9a839db62b657fcd18b058c\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31342523",
+      "x-tt-trace-host": "01c339d78b64ce6fed239a764c568c838c8a34394cedf0db567a8b29397d98859a2b96b2ac23c0b2333fd77bebc50da4b336275f7fabdcf92cce1bf31d479f70ef0c295dbaaec855acdebdb9666a6844036bd285b5aa0f9abcce130636c0389c6adebaf8f4db3c6af9154ef3c734dea33c",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 325.2529986202717,
+    "resourceSize": 26543
+  },
+  {
+    "index": 6,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/npm-7842561a.da94111f.js",
+    "startTime": 244.76199969649315,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 13595,
+    "transferSize": 5327,
+    "timing": 66.97599962353706,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 17.368
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.5990000000000002
+      },
+      {
+        "name": "Wait",
+        "value": 45.306999840021135
+      },
+      {
+        "name": "Receive",
+        "value": 3.70199978351593
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/npm-7842561a.da94111f.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d3910",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "P9hQtraau81BCN/hwru00A==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=6, inner; dur=1",
+      "content-length": "4596",
+      "x-tos-request-id": "52db853269dcff78633269dc-abc2187",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:24 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"3fd850b6b69abbcd4108dfe1c2bbb4d0\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428768",
+      "x-tt-trace-host": "01c339d78b64ce6fed239a764c568c838c8a34394cedf0db567a8b29397d98859a4aba1da36ae76f96a50086c29b5d1c09c3e911565f622bb39771c51e9b03bd06014136b8a72e7ea4a0779d1fab0bd327e852256a8a89788a28e99fbc80d7af117c66ca390676a7222d935331c8d11282",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 311.7379993200302,
+    "resourceSize": 13595
+  },
+  {
+    "index": 7,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/npm-74d9c565.118df093.js",
+    "startTime": 305.60699850320816,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 17492,
+    "transferSize": 8052,
+    "timing": 30.156999826431274,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.634
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.4149999999999999
+      },
+      {
+        "name": "Wait",
+        "value": 23.39499893283844
+      },
+      {
+        "name": "Receive",
+        "value": 5.7130008935928345
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/npm-74d9c565.118df093.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d3975",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "ymtklconVKD0S99TIxMlUw==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=2, inner; dur=2",
+      "content-length": "7310",
+      "x-tos-request-id": "31a6eb33833b12506333833b-abf411a",
+      "x-tos-response-time": "Tue, 27 Sep 2022 23:11:55 GMT",
+      "last-modified": "Tue, 27 Sep 2022 09:50:03 GMT",
+      "server": "nginx",
+      "etag": "\"ca6b6495ca2754a0f44bdf5323132553\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31500799",
+      "x-tt-trace-host": "012862f32a63623bd07b5994568efea39a6e77a5e5bf69d500dd368eef76ad3a28913292ba4a9dc5df95cd2fad7ad70e7ed29bc08c8eadb64c81696164215dbbe0758ed447505ea2f7bb46b733005c8fc523a78d5414b9222acaae4da20ed572c98ecd8bd5b36219df709db1b30a803e64",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 335.76399832963943,
+    "resourceSize": 17492
+  },
+  {
+    "index": 8,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/npm-b3a903c8.733d58df.js",
+    "startTime": 305.75499683618546,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 140961,
+    "transferSize": 46182,
+    "timing": 60.64000353217125,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.583
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.5070000000000001
+      },
+      {
+        "name": "Wait",
+        "value": 24.850999388694763
+      },
+      {
+        "name": "Receive",
+        "value": 34.699004143476486
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/npm-b3a903c8.733d58df.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d397b",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "Te7tgriufxzH+hfA3Vzbgg==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=4, inner; dur=2",
+      "x-tos-request-id": "6c95293269dc6273633269dc-abf3864",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:24 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"4deeed82b8ae7f1cc7fa17c0dd5cdb82\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428701",
+      "x-tt-trace-host": "0134b667f8c5a71ac070eb84f52e5591ef63b3ef64aa9dffc008b81426ab18692be5fa0347ba5c5b4c9e6b10f90d384f86e5b26199b92610ac319246319f607a6a551dac04627691f0e3090de747e61ada761b7f0d95823d5d0c5d8ecd46ef2c0acad13ad5d057131b6c85b407bdc9361b",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 366.3950003683567,
+    "resourceSize": 140961
+  },
+  {
+    "index": 9,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/vendor.2afa1d55.js",
+    "startTime": 305.8269992470741,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 83029,
+    "transferSize": 29492,
+    "timing": 53.925998508930206,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.577
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.44500000000000006
+      },
+      {
+        "name": "Wait",
+        "value": 24.011999234437944
+      },
+      {
+        "name": "Receive",
+        "value": 28.891999274492264
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/vendor.2afa1d55.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d3982",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "7StbuQEcql5xkqdNqWo+rQ==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=3, inner; dur=2",
+      "content-length": "28704",
+      "x-tos-request-id": "a92a3f30652b841d6330652b-abf3845",
+      "x-tos-response-time": "Sun, 25 Sep 2022 14:26:51 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"ed2b5bb9011caa5e7192a74da96a3ead\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31296388",
+      "x-tt-trace-host": "0134b667f8c5a71ac070eb84f52e5591ef63b3ef64aa9dffc008b81426ab18692b785b163419796d7b6b3039c757aaef0f054c75c1b0933124cdecbf93856a44e1feff1f684ab1949e3bf1a527e2773a3308fc969f41ac65c6364e7849e946e2eee182a0a46b0262b238799ef04271a8e4",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 359.75299775600433,
+    "resourceSize": 83029
+  },
+  {
+    "index": 10,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/main.6ce24671.js",
+    "startTime": 305.8979995548725,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 141608,
+    "transferSize": 45782,
+    "timing": 61.469998210668564,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.569
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.386
+      },
+      {
+        "name": "Wait",
+        "value": 24.42099951028824
+      },
+      {
+        "name": "Receive",
+        "value": 36.093998700380325
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/main.6ce24671.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d3989",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "GmqdOKoarnA9na9Uoioakg==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-parent-response-time": "3,23.61.10.75",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=2, inner; dur=2",
+      "x-tos-request-id": "d5f00733833bccfa6333833b-abf3860",
+      "x-tos-response-time": "Tue, 27 Sep 2022 23:11:55 GMT",
+      "last-modified": "Tue, 27 Sep 2022 09:50:03 GMT",
+      "server": "nginx",
+      "etag": "\"1a6a9d38aa1aae703d9daf54a22a1a92\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31500606",
+      "x-tt-trace-host": "012862f32a63623bd07b5994568efea39a6e77a5e5bf69d500dd368eef76ad3a2859784d7d82d3033c3b214cf8c0786dc44662ecf4053a041bf1b5b72e800a06bec88ad3e07e7113d587e6f3aaabd14960c8073c2f736f2fc73799b15e29d7a2113585cd2feb057149d9ccd02690d791d9",
+      "accept-ranges": "bytes",
+      "x-tos-storage-class": "STANDARD"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 367.3679977655411,
+    "resourceSize": 141608
+  },
+  {
+    "index": 11,
+    "url": "https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2",
+    "startTime": 719.0460003912449,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "VeryHigh",
+    "type": "Font",
+    "size": 36344,
+    "transferSize": 36851,
+    "timing": 288.36899995803833,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.859
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 133.422
+      },
+      {
+        "name": "SSL",
+        "value": 20.43400000000001
+      },
+      {
+        "name": "Send",
+        "value": 0.11899999999999977
+      },
+      {
+        "name": "Wait",
+        "value": 21.391999171495428
+      },
+      {
+        "name": "Receive",
+        "value": 88.59400078654289
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "Origin": "https://perfsee.com",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "static2.sharepointonline.com",
+      ":method": "GET",
+      ":path": "/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "origin": "https://perfsee.com",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "font",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-ms-lease-status": "unlocked",
+      "x-ms-blob-type": "BlockBlob",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "last-modified": "Mon, 22 Jun 2020 16:25:01 GMT",
+      "server": "Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0",
+      "etag": "0x8D816C8CFFC1B0C",
+      "content-type": "font/woff2",
+      "access-control-allow-origin": "*",
+      "x-ms-request-id": "5fcceb88-b01e-009a-6d2e-756a76000000",
+      "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Cache-Control,Last-Modified,ETag,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+      "cache-control": "public, max-age=30138173",
+      "x-ms-version": "2009-09-19",
+      "content-length": "36344",
+      "unused62": "8096267"
+    },
+    "statusCode": 200,
+    "mimeType": "font/woff2",
+    "resourceType": "Font",
+    "endTime": 1007.4150003492832,
+    "resourceSize": 36344
+  },
+  {
+    "index": 12,
+    "url": "https://perfsee.com/graphql",
+    "startTime": 716.110996901989,
+    "method": "POST",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "High",
+    "type": "Fetch",
+    "size": 168,
+    "transferSize": 798,
+    "timing": 44.99400034546852,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.285
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 2.129
+      },
+      {
+        "name": "Wait",
+        "value": 41.9289984152317
+      },
+      {
+        "name": "Receive",
+        "value": 0.6510019302368164
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "x-operation-name": "user",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "content-type": "application/json",
+      "Referer": "https://perfsee.com/",
+      "x-definition-name": "user",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "perfsee.com",
+      ":method": "POST",
+      ":path": "/graphql",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "content-length": "156",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "1aaede7a",
+      "date": "Wed, 28 Sep 2022 08:59:40 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=miss;type=dyn",
+      "x-powered-by": "Express",
+      "x-cache": "TCP_MISS from a184-51-149-68.deploy.akamaitechnologies.com (AkamaiGHost/10.9.4-44125806) (-)",
+      "x-ratelimit-reset": "0",
+      "server-timing": "inner; dur=22, cdn-cache; desc=MISS, edge; dur=0, origin; dur=34",
+      "content-length": "168",
+      "pragma": "no-cache",
+      "server": "nginx",
+      "etag": "W/\"a8-gkt7/QAPh3vXxCUUo4eULUhWceg\"",
+      "x-ratelimit-remaining": "119",
+      "content-type": "application/json; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "max-age=0, no-cache, no-store",
+      "x-origin-response-time": "34,184.51.149.68",
+      "x-tt-trace-host": "01a088e78453b8b63c430e5637fb2121dc2226d500699adf0743b9eeb6485bc0c34843f47c2df8ca4c72a514b5f0b4836da40ef28841c1964cd84562a09e875680d08862ade751b3b354fc909167e267ac",
+      "x-ratelimit-limit": "120",
+      "expires": "Wed, 28 Sep 2022 08:59:40 GMT"
+    },
+    "statusCode": 200,
+    "mimeType": "application/json",
+    "resourceType": "Fetch",
+    "endTime": 761.1049972474575,
+    "resourceSize": 168
+  },
+  {
+    "index": 13,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/home.579f7a9a.js",
+    "startTime": 806.6499978303909,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Script",
+    "size": 25970,
+    "transferSize": 7982,
+    "timing": 28.351999819278717,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.343
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.176
+      },
+      {
+        "name": "Wait",
+        "value": 21.910000586271288
+      },
+      {
+        "name": "Receive",
+        "value": 5.922999233007431
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/home.579f7a9a.js",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d414e",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "content-encoding": "gzip",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "swbN2MgiujQ8ug3rnythgQ==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=1, inner; dur=15",
+      "content-length": "7241",
+      "x-tos-request-id": "84a3f733e3d82faf6333e3d8-abe96e6",
+      "x-tos-response-time": "Wed, 28 Sep 2022 06:04:08 GMT",
+      "last-modified": "Tue, 27 Sep 2022 09:50:03 GMT",
+      "server": "nginx",
+      "etag": "\"b306cdd8c822ba343cba0deb9f2b6181\"",
+      "vary": "Accept-Encoding",
+      "content-type": "application/javascript",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31525546",
+      "x-tt-trace-host": "014095f2df3d4d136416acba715f6643e48a3d37ae15070d13d7272307ca55e83ad9c5cc434c6e13565009bf4559748d829adb963ce12cc4e34d19c282539c762047297d1417cc92ce517c7be005a58f66242bda10a780a3bd8f69ef88e84f61b5248ce564d45214b00cd514cc25d5dfa0",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "application/javascript",
+    "resourceType": "Script",
+    "endTime": 835.0019976496696,
+    "resourceSize": 25970
+  },
+  {
+    "index": 14,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/d4d57ada91cf9abbdc7a.png",
+    "startTime": 899.0509994328022,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Image",
+    "size": 2501,
+    "transferSize": 3195,
+    "timing": 23.36699888110161,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.312
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.16599999999999998
+      },
+      {
+        "name": "Wait",
+        "value": 21.714999720573424
+      },
+      {
+        "name": "Receive",
+        "value": 1.173999160528183
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/d4d57ada91cf9abbdc7a.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d42b4",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "ARn8LsCnMV/wgGVTX2aAGA==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=0, inner; dur=2",
+      "content-length": "2501",
+      "x-tos-request-id": "792aac3269e031f8633269e0-abf4049",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:28 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"0119fc2ec0a7315ff08065535f668018\"",
+      "content-type": "image/png",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428796",
+      "x-tt-trace-host": "0134b667f8c5a71ac070eb84f52e5591ef63b3ef64aa9dffc008b81426ab18692b11a807be03ffd508966e6a97df84a497fedee2fa427254ef8c95c135aabf20d109dd2c702265add8a6b0c0faca1d8535a122288405c8dbc09512dc3b013346da38fbe7241170be6f7846479c208a2007",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "image/png",
+    "resourceType": "Image",
+    "endTime": 922.4179983139038,
+    "resourceSize": 2501
+  },
+  {
+    "index": 15,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/015c57dd9db69fb0de1b.png",
+    "startTime": 913.1049998104572,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "High",
+    "type": "Image",
+    "size": 141472,
+    "transferSize": 142484,
+    "timing": 143.01899820566177,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.326
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.37799999999999995
+      },
+      {
+        "name": "Wait",
+        "value": 21.555999066591262
+      },
+      {
+        "name": "Receive",
+        "value": 120.75899913907051
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/015c57dd9db69fb0de1b.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d42e6",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "e1ntxg4+oMbRWnk8xpOT9A==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=1, inner; dur=1",
+      "content-length": "141472",
+      "x-tos-request-id": "a34b03269e08710633269e0-abf3f4e",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:28 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"7b59edc60e3ea0c6d15a793cc69393f4\"",
+      "content-type": "image/png",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428600",
+      "x-tt-trace-host": "01c339d78b64ce6fed239a764c568c838c8a34394cedf0db567a8b29397d98859a2b96b2ac23c0b2333fd77bebc50da4b34b08491fefc6bb444930afaabb1fa7b64bd1e28f3018df2e91739f5abea08f3f76459f51096b357a3da64ecf401c634265f3333b25391194a32fc1051c3a5d6f",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "image/png",
+    "resourceType": "Image",
+    "endTime": 1056.123998016119,
+    "resourceSize": 141472
+  },
+  {
+    "index": 16,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/2f13f4afbb065f54a7be.png",
+    "startTime": 920.4169996082783,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "High",
+    "type": "Image",
+    "size": 171110,
+    "transferSize": 172214,
+    "timing": 196.93800061941147,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.398
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.886
+      },
+      {
+        "name": "Wait",
+        "value": 20.878999957799913
+      },
+      {
+        "name": "Receive",
+        "value": 174.77500066161156
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/2f13f4afbb065f54a7be.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d430a",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "+kNjYI7QGJij1kKsFD7VpQ==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-parent-response-time": "5,23.48.249.58",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=2, inner; dur=2",
+      "content-length": "171110",
+      "x-tos-request-id": "cadcd13269e00ee0633269e0-abd4b50",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:28 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"fa4363608ed01898a3d642ac143ed5a5\"",
+      "x-tos-storage-class": "STANDARD",
+      "content-type": "image/png",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428772",
+      "x-tt-trace-host": "0134b667f8c5a71ac070eb84f52e5591ef63b3ef64aa9dffc008b81426ab18692b2b86099f1d4b576bb5fc21fe8a63f595e4698b9044ccb4fb037f24f3a66398361e4ef078095082d8c1fd8913df642d0ba0d393f4d0fa74e0eadf2a348753f0b63cc146340f90c13cde6a1965d8392960",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "image/png",
+    "resourceType": "Image",
+    "endTime": 1117.3550002276897,
+    "resourceSize": 171110
+  },
+  {
+    "index": 17,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/9c830101be7ee076abc1.png",
+    "startTime": 925.5689978599548,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Image",
+    "size": 134168,
+    "transferSize": 135161,
+    "timing": 175.30300095677376,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 1.092
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.7329999999999999
+      },
+      {
+        "name": "Wait",
+        "value": 21.346000182628632
+      },
+      {
+        "name": "Receive",
+        "value": 152.13200077414513
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/9c830101be7ee076abc1.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d432a",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "HSCvvb0xqXHW3BOtxe2oGw==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=3, inner; dur=2",
+      "content-length": "134168",
+      "x-tos-request-id": "b10dc53065c87930633065c8-abf3ca1",
+      "x-tos-response-time": "Sun, 25 Sep 2022 14:29:28 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"1d20afbdbd31a971d6dc13adc5eda81b\"",
+      "content-type": "image/png",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31296628",
+      "x-tt-trace-host": "0134b667f8c5a71ac070eb84f52e5591ef63b3ef64aa9dffc008b81426ab18692b7f6a4f8dfdf24619e1b5d4b7bf336f4a4258144c70e43762bca006f08a92ed2825335cf39e50e81d53518c22d01a0c62176bca44928fa73e0bf9b153198540b215827938150f7d56efc17ca5660cc973",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "image/png",
+    "resourceType": "Image",
+    "endTime": 1100.8719988167286,
+    "resourceSize": 134168
+  },
+  {
+    "index": 18,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/b49b596f512cffe2850f.png",
+    "startTime": 926.2939989566803,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Image",
+    "size": 150288,
+    "transferSize": 151320,
+    "timing": 196.3290013372898,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.835
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.39600000000000013
+      },
+      {
+        "name": "Wait",
+        "value": 22.523000663757323
+      },
+      {
+        "name": "Receive",
+        "value": 172.5750006735325
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/b49b596f512cffe2850f.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d4340",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "gP8YusPEZoY0NNdxIZ8Eyw==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=6, inner; dur=2",
+      "content-length": "150288",
+      "x-tos-request-id": "b9dd783269e0b5b9633269e0-abf342c",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:28 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"80ff18bac3c466863434d771219f04cb\"",
+      "content-type": "image/png",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428621",
+      "x-tt-trace-host": "0134b667f8c5a71ac070eb84f52e5591ef63b3ef64aa9dffc008b81426ab18692b1f7cf7f876cd4d885e873fc4233abdcd0ff81ec6a834e5246c323f3bf00367a48db7b3227e1f607850fa145bbd4286df6cdf069867faded5a352bbf82f1654c9c96896a102f7eee8701ac06dd4517ea5",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "image/png",
+    "resourceType": "Image",
+    "endTime": 1122.62300029397,
+    "resourceSize": 150288
+  },
+  {
+    "index": 19,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/0f4dec1980851adccb8d.png",
+    "startTime": 928.0969984829426,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Image",
+    "size": 150552,
+    "transferSize": 151583,
+    "timing": 198.2400007545948,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.259
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.124
+      },
+      {
+        "name": "Wait",
+        "value": 20.997998194217683
+      },
+      {
+        "name": "Receive",
+        "value": 176.85900256037712
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/0f4dec1980851adccb8d.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d4346",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "4TWoiQZNaJ42MMn0PQwN/g==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_MISS",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=3, inner; dur=18",
+      "content-length": "150552",
+      "x-tos-request-id": "119dc4326ee27f9e63326ee2-abd4b47",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:32:50 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"e135a889064d689e3630c9f43d0c0dfe\"",
+      "content-type": "image/png",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31430013",
+      "x-tt-trace-host": "0134b667f8c5a71ac070eb84f52e5591ef63b3ef64aa9dffc008b81426ab18692b41d06fd8d313a1fee112f48ee4b00a0b9a103e1ebb204e2c4823c2f97583f48cabf5eed822b80b584d44cccc9040ae2589a3d91b74de6de40aed616da3d5f0088b9a74c4bdca06cf45b7e4e46ea3722c",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "image/png",
+    "resourceType": "Image",
+    "endTime": 1126.3369992375374,
+    "resourceSize": 150552
+  },
+  {
+    "index": 20,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/1eaa59e76c1af1c1a253.png",
+    "startTime": 1006.9959983229637,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "Low",
+    "type": "Image",
+    "size": 305401,
+    "transferSize": 306776,
+    "timing": 311.2669996917248,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 1.29
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.754
+      },
+      {
+        "name": "Wait",
+        "value": 21.542001247167587
+      },
+      {
+        "name": "Receive",
+        "value": 287.6809984445572
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/1eaa59e76c1af1c1a253.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d4473",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "9idRMl5uX9SGtLEwX7bDlg==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=2, inner; dur=1",
+      "content-length": "305401",
+      "x-tos-request-id": "3de0f63269e0a301633269e0-abf385c",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:28 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"f62751325e6e5fd486b4b1305fb6c396\"",
+      "content-type": "image/png",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428807",
+      "x-tt-trace-host": "0134b667f8c5a71ac070eb84f52e5591ef63b3ef64aa9dffc008b81426ab18692bf06e708b03e5a346a8b39a63acb6668939e9766b95b6770428a7c5bc59a8781a45f6b458bd1d1cc97c8f8cc847c9d7a9036b930b81b84b8dce2500fc1ab47d43e474c11958e7333b89b559d97d36c377",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "image/png",
+    "resourceType": "Image",
+    "endTime": 1318.2629980146885,
+    "resourceSize": 305401
+  },
+  {
+    "index": 21,
+    "url": "https://lf16-static-va.ibytedtos.com/perfsee/platform/4dab26128121e3e4e1b9.png",
+    "startTime": 1008.5289999842644,
+    "method": "GET",
+    "status": "200",
+    "protocol": "h2",
+    "priority": "High",
+    "type": "Image",
+    "size": 585751,
+    "transferSize": 587742,
+    "timing": 423.26999828219414,
+    "timings": [
+      {
+        "name": "Blocked",
+        "value": 0.556
+      },
+      {
+        "name": "DNS",
+        "value": 0
+      },
+      {
+        "name": "Connect",
+        "value": 0
+      },
+      {
+        "name": "SSL",
+        "value": 0
+      },
+      {
+        "name": "Send",
+        "value": 0.45699999999999985
+      },
+      {
+        "name": "Wait",
+        "value": 22.300999176025393
+      },
+      {
+        "name": "Receive",
+        "value": 399.95599910616875
+      }
+    ],
+    "requestHeader": {
+      "sec-ch-ua": "\"Chromium\";v=\"103\", \"Google Chrome\";v=\"103\", \"Lighthouse\";v=\"9.6.7\"",
+      "Referer": "https://perfsee.com/",
+      "sec-ch-ua-mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37",
+      "sec-ch-ua-platform": "\"macOS\"",
+      ":authority": "lf16-static-va.ibytedtos.com",
+      ":method": "GET",
+      ":path": "/perfsee/platform/4dab26128121e3e4e1b9.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "referer": "https://perfsee.com/",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37"
+    },
+    "responseHeader": {
+      "x-akamai-request-id": "54d4483",
+      "date": "Wed, 28 Sep 2022 08:59:41 GMT",
+      "x-tt-trace-tag": "id=16;cdn-cache=hit;type=static",
+      "content-md5": "KlcvMlqy8SIi7MzG99sD2w==",
+      "x-cache": "TCP_HIT from a23-222-12-36.deploy.akamaitechnologies.com (AkamaiGHost/10.9.5-44379351) (-)",
+      "x-bdcdn-cache-status": "TCP_HIT",
+      "x-tos-storage-class": "STANDARD",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=1, inner; dur=2",
+      "content-length": "585751",
+      "x-tos-request-id": "119dc43269e054ad633269e0-abd4b47",
+      "x-tos-response-time": "Tue, 27 Sep 2022 03:11:28 GMT",
+      "last-modified": "Tue, 20 Sep 2022 09:49:16 GMT",
+      "server": "nginx",
+      "etag": "\"2a572f325ab2f12222ecccc6f7db03db\"",
+      "content-type": "image/png",
+      "access-control-allow-origin": "*",
+      "x-check-cacheable": "YES",
+      "cache-control": "max-age=31428731",
+      "x-tt-trace-host": "01c339d78b64ce6fed239a764c568c838c8a34394cedf0db567a8b29397d98859abfae2e40e623df3a3d3ca2c23e0da2eba1b88637ca93cb1961b81b237088836f81a7d06ab4ac1c221963130c151a9cda12e0a36f7312917337edec95cef60b7aa37ca326192e5bdf224c7817470b7ec2",
+      "accept-ranges": "bytes"
+    },
+    "statusCode": 200,
+    "mimeType": "image/png",
+    "resourceType": "Image",
+    "endTime": 1431.7989982664585,
+    "resourceSize": 585751
+  }
+]
